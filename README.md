@@ -1,56 +1,58 @@
-# 🤖 PrepMate
+# 🚀 PrepMate – AI-Powered Interview Preparation Platform
 
-PrepMate is an AI-powered interview preparation platform that helps candidates prepare for technical interviews by analyzing their resume and the target job description.
+### 🌐 Live Demo
+**Frontend:** https://prepmate-gamma.vercel.app
 
-It generates personalized interview questions, identifies skill gaps, and creates a structured learning roadmap using Google's Gemini AI.
+**Backend:** https://prepmate-backend-pb2s.onrender.com
+
+**GitHub Repository:** https://github.com/Ashvini-27/PrepMate
+
+---
+
+## 📌 Overview
+
+PrepMate is a full-stack MERN application that helps users prepare for interviews by analyzing their resume against a job description using Google Gemini AI.
+
+Users can upload their resume (PDF), provide a job description, and receive:
+
+- 🎯 ATS Match Score
+- 💼 Personalized Interview Questions
+- 📊 Skill Gap Analysis
+- 🗺️ AI-generated Learning Roadmap
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- React (Vite)
+- SCSS
+- React Router
+- Axios
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB Atlas
+- JWT Authentication
+- Multer
+- pdf-parse
+- Google Gemini AI
+
+### Deployment
+- Vercel
+- Render
+- MongoDB Atlas
 
 ---
 
 ## ✨ Features
 
-- 🔐 Secure User Authentication (JWT)
+- 🔐 Secure JWT Authentication
 - 📄 Resume Upload (PDF)
 - 🤖 AI-powered Resume Analysis
-- 💼 Job Description Analysis
-- ❓ Personalized Technical & Behavioral Questions
-- 📊 Match Score
-- 📈 Skill Gap Analysis
-- 🗺️ AI-generated Learning Roadmap
-- 📥 Download Interview Report
-- 🎨 Modern Glassmorphism UI
-
----
-
-## 🛠️ Tech Stack
-
-### Frontend
-- React.js
-- SCSS
-- Axios
-- React Router
-
-### Backend
-- Node.js
-- Express.js
-- MongoDB
-- Mongoose
-
-### AI
-- Google Gemini AI
-
-### Authentication
-- JWT
-- bcrypt
-
----
-
-## 📂 Project Structure
-
-```
-PrepMate
-│
-├── Backend
-│
-└── Frontend
-```
-
+- 🎯 ATS Match Score
+- 💼 Personalized Interview Questions
+- 📊 Skill Gap Analysis
+- 🗺️ Learning Roadmap
+- 📱 Responsive User Interface
