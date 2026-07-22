@@ -87,7 +87,7 @@ const Interview = () => {
         <div className='interview-page'>
             <div className='interview-layout'>
 
-                {/* ── Left Nav ── */}
+             
                 <nav className='interview-nav'>
                     <div className="nav-content">
                         <p className='interview-nav__label'>Sections</p>
@@ -112,7 +112,7 @@ const Interview = () => {
 
                 <div className='interview-divider' />
 
-                {/* ── Center Content ── */}
+           
                 <main className='interview-content'>
                     {activeNav === 'technical' && (
                         <section>
