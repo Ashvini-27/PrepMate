@@ -2,7 +2,7 @@ import axios from "axios"
 
 
 const api = axios.create({
-    baseURL: "https://prepmate-backend-pb2s.onrender.com",
+    baseURL: "https://prepmate-9ky2.onrender.com",
     withCredentials: true
 })
 
